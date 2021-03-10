@@ -312,6 +312,99 @@ section.servicos-depoimentos {
     font-size: 23px;
 }
 
+section.contato .container {
+    max-width: 800px;
+    padding: 40px 20px;
+}
+
+section.contato .line-titulo h2 {
+    margin-bottom: 40px;
+    position: relative;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 27px;
+    padding: 0 20px;
+    font-style: italic;
+}
+
+.contato form .form-group {
+    margin-bottom: 10px;
+}
+
+.contato form input:not(input[type=submit]), textarea {
+    border: 1px solid #ccc;
+}
+
+.contato form input[type=text] {
+    width: 100%;
+    padding: 2px 10px;
+}
+
+.contato form input[name=email] {
+    width: 49%;
+    float: left;
+    padding: 2px 10px;
+    margin-right: 7px;
+}
+
+.contato form input[name=telefone] {
+    width: 49%;
+    float: left;
+    padding: 2px 10px;
+    margin-left: 8px;
+}
+
+.contato form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    resize: none;
+}
+
+.contato form .form-group input[type=submit] {
+    position: relative;
+    left: calc(50% - 50px);
+    width: 100px;
+    border: 0;
+}
+
+footer {
+    padding: 40px 2%;
+    background-color: #252525;
+}
+
+footer nav {
+    float: left;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+footer ul li {
+     float: left;
+     font-size: 19px;
+     padding: 0 35px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav a.active {
+    color: #eb2d2d;
+}
+
+footer p {
+    float: right;
+    color: white;
+    font-size: 19px;
+}
+
 @media screen and (max-width: 1400px) {
     section.banner {
         background-size: 90% auto;
@@ -352,6 +445,20 @@ section.servicos-depoimentos {
         margin-left: 0;
         margin-top: 15px;
     }
+
+    .contato form input[name=email] {
+        width: 100%;
+        float: none;
+        padding: 2px 10px;
+        margin-right: 0;
+    }
+
+    .contato form input[name=telefone] {
+        width: 100%;
+        float: none;
+        padding: 2px 10px;
+        margin-left: 0;
+    }
 }
 
 @media screen and  (max-width: 768px) {
@@ -371,6 +478,21 @@ section.servicos-depoimentos {
         padding: 80px 4%;
         width: 100%;
     }
+
+    footer {
+        text-align: center;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    footer p {
+        float: none;
+    }
+
+    
+    
 }
 
 @media screen and (max-width: 580px) {
