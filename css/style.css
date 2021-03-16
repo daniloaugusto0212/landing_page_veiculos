@@ -166,7 +166,7 @@ section.veiculos-destaque {
     background-color: #000;
 }
 
-.veiculos-destaque .line-titulo h2 {
+.line-titulo h2 {
     position: relative;
     background-color: #fff;
     display: inline-block;
@@ -317,7 +317,7 @@ section.contato .container {
     padding: 40px 20px;
 }
 
-section.contato .line-titulo h2 {
+.line-titulo h2 {
     margin-bottom: 40px;
     position: relative;
     background-color: #fff;
@@ -369,6 +369,110 @@ section.contato .line-titulo h2 {
     left: calc(50% - 50px);
     width: 100px;
     border: 0;
+}
+
+/*Etilos da página de VENDA*/
+
+section.venda {
+    padding: 90px 0;
+    min-height: 90%;
+}
+
+.content-venda {
+    margin-top: 40px;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+}
+
+.search1 {
+    width: 300px;
+}
+
+.search1 h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: normal;
+}
+
+.search1 .barra-preco {
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.barra-preco-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(200, 200, 200);
+}
+
+.pointer-barra {
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    position: absolute;
+    top: -3px;
+    left: calc(30% - 13px);
+    background-color: rgb(210, 210, 210);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.valor-presquisa {
+    margin-top: 8px;
+}
+
+.valor-pesquisa p:nth-of-type(1) {
+    float: left;
+}
+
+.valor-pesquisa p:nth-of-type(2) {
+    float: right;
+}
+
+.search2 {
+    margin-top: 40px;
+}
+
+.search2 h2 {
+    font-size: 24px;
+    color: #000;
+    font-weight: normal;
+}
+
+.form-venda-wraper {
+    margin-top: 10px;
+}
+
+.form-venda-wraper input {
+    display: none;
+}
+
+.form-venda-wraper label {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.form-venda-wraper span {
+    padding: 0 10px;
+    vertical-align: top;
+    display: inline-block;
 }
 
 footer {
@@ -504,7 +608,7 @@ footer p {
         font-size: 18px;
     }
 
-    .veiculos-destaque .line-titulo h2 {
+    .line-titulo h2 {
         font-size: 23px;
     }
 
