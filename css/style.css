@@ -388,7 +388,7 @@ section.venda {
 }
 
 .search1 {
-    width: 300px;
+    width: 90%;
 }
 
 .search1 h2 {
@@ -414,7 +414,7 @@ section.venda {
     width: 30%;
     height: 20px;
     border-radius: 20px;
-    background-color: rgb(200, 200, 200);
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(200, 200, 200));
 }
 
 .pointer-barra {
@@ -424,8 +424,8 @@ section.venda {
     position: absolute;
     top: -3px;
     left: calc(30% - 13px);
-    background-color: rgb(210, 210, 210);
-    border: 1px solid black;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(180, 180, 180));
+    border: 1px solid #777;
     cursor: pointer;
 }
 
@@ -467,12 +467,37 @@ section.venda {
     border-radius: 3px;
     vertical-align: top;
     cursor: pointer;
+    position: relative;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    display: none;
+    border-radius: 4px;
+    background-color: black;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.form-venda-wraper input[type=checkbox]:checked + label > .circle {
+    display: block;
 }
 
 .form-venda-wraper span {
     padding: 0 10px;
     vertical-align: top;
     display: inline-block;
+}
+
+.vitrine-venda {
+    float: left;
+    width: 70%;
+}
+
+.vitrine-venda .vitrine-destaque {
+    margin-top: 20px;
 }
 
 footer {
@@ -581,6 +606,26 @@ footer p {
     .servicos, .depoimentos {
         padding: 80px 4%;
         width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .search1 {
+        display: inline-block;
+    }
+
+    .search2 {
+        text-align: left;
+        display: inline-block;
+    }
+
+    .vitrine-venda {
+        overflow: hidden;
+        width: 100%;
+        text-align: center;
     }
 
     footer {
