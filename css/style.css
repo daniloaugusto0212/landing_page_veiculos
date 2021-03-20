@@ -314,7 +314,7 @@ section.servicos-depoimentos {
 
 section.contato .container {
     max-width: 800px;
-    padding: 40px 20px;
+    padding: 10px 20px;
 }
 
 .line-titulo h2 {
@@ -333,17 +333,23 @@ section.contato .container {
     margin-bottom: 10px;
 }
 
+.contato form input {
+    font-size: 22px;
+}
+
 .contato form input:not(input[type=submit]), textarea {
     border: 1px solid #ccc;
 }
 
 .contato form input[type=text] {
     width: 100%;
+    height: 60px;
     padding: 2px 10px;
 }
 
 .contato form input[name=email] {
     width: 49%;
+    height: 60px;
     float: left;
     padding: 2px 10px;
     margin-right: 7px;
@@ -357,6 +363,7 @@ section.contato .container {
 }
 
 .contato form textarea {
+    font-size: 22px;
     width: 100%;
     height: 100px;
     padding: 2px 10px;
@@ -503,16 +510,17 @@ section.venda {
 /*Página Veículo*/
 
 section.venda-single {
-    padding: 0 2%;
+    padding: 80px 2% 0 2%;
 }
 
 section.venda-single .container {
     padding: 40px 0;
+    text-align: center;
     max-width: 1000px;
 }
 
 .info-veiculo {
-    float: left;
+    display: inline-block;
     width: 60%;
 }
 
@@ -520,30 +528,81 @@ section.venda-single .container {
     width: 100%;
     padding-top: 70%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .descricao-veiculo {
-    float: left;
-    width: 40%;
-    padding: 20px;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    padding: 60px 20px;
+    text-align: left;
 }
 
 .descricao-veiculo p {
     max-width: 360px;
     margin-top: 25px;
+    max-width: 200px;
 }
 
 .descricao-veiculo a {
     margin-top: 25px;
 }
 
-.nav-galeria {
+.nav-galeria-parent {
     width: 100%;
-    padding: 15px;
+    padding: 30px;
+    position: relative;
+}
+
+.arrow-left-nav {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    cursor: pointer;
+    background-image: url('../images/arrow-left.png');
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.arrow-right-nav {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    cursor: pointer;
+    background-image: url('../images/arrow-right.png');
+    background-size: 100% 100%;
+    width: 22px;
+    height: 22px;
+}
+
+.info-bread {
+    padding: 20px 0;
+    text-align: left;
+}
+
+.info-bread a {
+    text-decoration: none;
+    color: #000;
+}
+
+.info-bread span:last-child {
+    color: #b21e1e;
+}
+
+.info-bread span {
+    padding: 0 10px;
+}
+
+.nav-galeria {
     overflow: hidden;
-    margin-top: 15px;
+    width: 100%;
 }
 
 .nav-galeria-wraper {
@@ -551,6 +610,7 @@ section.venda-single .container {
 } 
 
 .mini-img {
+    cursor: pointer;
     float: left;
     border: 7px solid white;
     background-position: center;
