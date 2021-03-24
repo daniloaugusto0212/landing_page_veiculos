@@ -622,7 +622,62 @@ section.venda-single .container {
     background-size: cover;
 }
 
+section.sobre {
+    min-height: 90%;
+    padding: 60px 2% 20px 2%;
+}
+
+.sobre .container {
+    max-width: 840px;
+    margin-top: 30px;
+}
+
+.sobre .img-destaque-sobre {
+    width: 100%;
+    padding-top: 60%;
+    background-color: rgb(220, 220, 220);
+    background-image: url(../images/bg-sobre.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sobre .descricao-autor {
+    margin-top: 20px;
+}
+
+.descricao-autor h2 {
+    font-size: 24px;
+}
+
+.descricao-autor p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+.descricao-autor2 {
+    margin-top: 40px;
+}
+
+.img-small {
+    width: 30%;
+    padding-top: 30%;
+    background-image: url(../images/perfil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    float: left;
+}
+
+.descricao-autor2 p {
+    float: left;
+    width: 70%;
+    line-height: 28px;
+    padding: 15px;
+}
+
 footer {
+    margin-top: 20px;
     padding: 40px 2%;
     background-color: #252525;
 }
@@ -811,6 +866,16 @@ footer p {
 
     .vitrine-destaque a {
         display: inline-block;
+    }
+
+    .img-small {
+        width: 100%;
+        padding-top: 50%;
+    }
+
+    .descricao-autor2 p {
+        width: 100%;
+        padding: 20px 0;
     }
 }
 
