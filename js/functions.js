@@ -1,5 +1,7 @@
 $(function () {
 
+    //Sistema de PEquisa
+
     var currentValue = 0
     var isDrag = false
     var precoMaximo = 70000
@@ -61,4 +63,70 @@ $(function () {
         $('body').css('-o-user-select', 'none')
         $('body').css('user-select', 'none')
     }
+
+
+    /*
+
+    Sistema de SLide da página individual de cada carro
+
+    */
+
+    var imgShow = 3
+    var maxIndex = Math.ceil($('.mini-img-wraper').length / 3) - 1
+    var curIndex = 0
+
+    initSlider()
+    navigateSlider()
+    clickSlider()
+    function initSlider() {
+        var amt = $('.mini-img-wraper').length * 33.3
+        var elScroll = $('.nav-galeria-wraper')
+        var elSingle = $('.mini-img-wraper')
+        elScroll.css('width', amt + '%')
+        elSingle.css('width',33.3 * (100 / amt) + '%')
+    }
+
+    function navigateSlider() {
+        $('.arrow-right-nav').click(function(){
+            if (curIndex < maxIndex) {
+                curIndex++
+                var elOff = $('.mini-img-wraper').eq(curIndex * 3).offset().left - $('.nav-galeria-wraper').offset().left
+                $('.nav-galeria').animate({'scrollLeft':elOff + 'px'})
+            } else {
+
+            }
+        })
+
+        $('.arrow-left-nav').click(function(){
+            if (curIndex > 0) {
+                curIndex--
+                var elOff = $('.mini-img-wraper').eq(curIndex * 3).offset().left - $('.nav-galeria-wraper').offset().left
+                $('.nav-galeria').animate({'scrollLeft':elOff + 'px'})
+            } else {
+
+            }
+        })
+    }
+
+    function clickSlider() {
+        $('.mini-img-wraper').click(function(){
+            $('.mini-img-wraper').css('background-color', 'transparent')
+            $(this).css('background-color', 'rgb(210, 210, 210)')
+            var img = $(this).children().css('background-image')
+            $('.foto-destaque').css('background-image', img)
+        })
+
+        $('.mini-img-wraper').eq(0).click()
+    }
+
+    //Clicar e ir para a div de contato com base no atributo goto
+
+    $('[goto=contato]').click(function(){
+        $('.nav a').css('color', 'black')
+        $(this).css('color', '#eb2d2d')
+        $('html, body').animate({'scrollTop':$('#contato').offset().top})
+        return false
+    })
+
+
 })
