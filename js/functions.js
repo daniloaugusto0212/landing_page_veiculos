@@ -120,13 +120,66 @@ $(function () {
     }
 
     //Clicar e ir para a div de contato com base no atributo goto
+    var directory = '/front-end-danki/Projeto_05/'
 
     $('[goto=contato]').click(function(){
-        $('.nav a').css('color', 'black')
-        $(this).css('color', '#eb2d2d')
-        $('html, body').animate({'scrollTop':$('#contato').offset().top})
+        location.href=directory + 'index.html?contato'
         return false
     })
 
+    checkUrl()
+
+    function checkUrl() {
+        var url =  location.href.split('/')
+        var curPage = url[url.length - 1].split('?')
+
+        if (curPage[1] == 'contato') {
+            $('header nav a').css('color', 'black')
+            $('footer nav a').css('color', 'white')
+            $('[goto=contato]').css('color', '#eb2d2d')
+            $('html,body').animate({'scrollTop':$('#contato').offset().top})
+        }
+    }
+
+    /*Menu responsivo*/
+
+    $('.mobile').click(function(){
+        $(this).find('ul').slideToggle()
+    })
+
+
+
+    /*Sistema de navegação nos depoimentos da index*/
+
+    var amtDepoimento = $('.depoimento-single q').length
+    var curIndex = 0
+
+    iniciarDepoimentos()
+    navegarDepoimentos()
+
+    function iniciarDepoimentos() {
+        $('.depoimento-single q').hide()
+        $('.depoimento-single q').eq(0).show()
+    }
+
+    function navegarDepoimentos() {
+        $('[next]').click(function(){
+            curIndex++
+            if (curIndex >= amtDepoimento) {
+                curIndex = 0                
+            }
+            $('.depoimento-single q').hide()
+            $('.depoimento-single q').eq(curIndex).show()
+        })
+
+        $('[prev]').click(function(){
+            curIndex--
+            if (curIndex < 0) {
+                curIndex = amtDepoimento -1                
+            }
+            $('.depoimento-single q').hide()
+            $('.depoimento-single q').eq(curIndex).show()
+        })
+    }
 
 })

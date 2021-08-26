@@ -277,7 +277,7 @@ section.servicos-depoimentos {
     padding: 90px 100px;
 }
 
-.depoimentos .depoimentos-info {
+.depoimentos .depoimento-single {
     margin-top: 19px;
 }
 
@@ -286,7 +286,7 @@ section.servicos-depoimentos {
     font-weight: normal;
 }
 
-.depoimentos .depoimentos-info q {
+.depoimentos .depoimento-single q {
     font-size: 22px;
 }
 
