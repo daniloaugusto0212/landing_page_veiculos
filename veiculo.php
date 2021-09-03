@@ -24,17 +24,17 @@
 
             <nav class="desktop">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a  class="active"  href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a  class="active"  href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a  class="active"  href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a  class="active"  href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
@@ -55,8 +55,8 @@
         <div class="container">
             <div class="info-veiculo">
                 <div class="info-bread">
-                    <a href="index.html">HOME</a><span>></span>
-                    <a href="venda.html">VENDA</a><span>></span>
+                    <a href="index">HOME</a><span>></span>
+                    <a href="venda">VENDA</a><span>></span>
                     <span>NOME VEÍCULO </span>
                 </div>
                 <div class="foto-destaque"></div>
@@ -170,8 +170,8 @@
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a class="active" href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a class="active" href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>

@@ -22,17 +22,17 @@
 
             <nav class="desktop">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="venda.html">Venda</a></li>
-                    <li><a class="active" href="sobre.html">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="venda">Venda</a></li>
+                    <li><a class="active" href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="venda.html">Venda</a></li>
-                    <li><a class="active" href="sobre.html">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="venda">Venda</a></li>
+                    <li><a class="active" href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
@@ -74,9 +74,9 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="venda.html">Venda</a></li>
-                    <li><a class="active" href="sobre.html">Sobre</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="venda">Venda</a></li>
+                    <li><a class="active" href="sobre">Sobre</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>

@@ -123,7 +123,7 @@ $(function () {
     var directory = '/front-end-danki/Projeto_05/'
 
     $('[goto=contato]').click(function(){
-        location.href=directory + 'index.html?contato'
+        location.href=directory + '?contato'
         return false
     })
 

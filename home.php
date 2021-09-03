@@ -22,17 +22,17 @@
 
             <nav class="desktop">
                 <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a class="active" href="home">Home</a></li>
+                    <li><a href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
                 <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a class="active" href="home">Home</a></li>
+                    <li><a href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
@@ -81,7 +81,7 @@
                 <div class="info-carro">
                     <h2>Volkswagem Karmann-ghia</h2>
                     <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                    <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                    <a class="btn1" href="veiculo">Mais Detalhes</a>
                 </div>
                 <!-- /.info-carro -->
                 <!-- /.carro-img -->
@@ -92,7 +92,7 @@
                 <div class="info-carro">
                     <h2>Volkswagem Karmann-ghia</h2>
                     <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                    <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                    <a class="btn1" href="veiculo">Mais Detalhes</a>
                 </div>
                 <!-- /.info-carro -->
                 <!-- /.carro-img -->
@@ -103,7 +103,7 @@
                 <div class="info-carro">
                     <h2>Volkswagem Karmann-ghia</h2>
                     <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                    <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                    <a class="btn1" href="veiculo">Mais Detalhes</a>
                 </div>
                 <!-- /.info-carro -->
                 <!-- /.carro-img -->
@@ -125,7 +125,7 @@
                     <li>Consultoria de Veículos</li>
                     <li>Indicação de mecânicos e peças</li>
                 </ul>
-                <a class="btn1" href="sobre.html">Saiba mais</a>
+                <a class="btn1" href="sobre">Saiba mais</a>
             </div>
             <!-- /.servicos-info -->
         </div>
@@ -192,9 +192,9 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a class="active" href="index">Home</a></li>
+                    <li><a href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>

@@ -22,17 +22,17 @@
 
             <nav class="desktop">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a class="active" href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
             <nav class="mobile">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="home">Home</a></li>
+                    <li><a class="active" href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav>
@@ -116,7 +116,7 @@
                         <div class="info-carro">
                             <h2>Volkswagem Karmann-ghia</h2>
                             <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                            <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                            <a class="btn1" href="veiculo">Mais Detalhes</a>
                         </div>
                         <!-- /.info-carro -->
                         <!-- /.carro-img -->
@@ -127,7 +127,7 @@
                         <div class="info-carro">
                             <h2>Volkswagem Karmann-ghia</h2>
                             <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                            <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                            <a class="btn1" href="veiculo">Mais Detalhes</a>
                         </div>
                         <!-- /.info-carro -->
                         <!-- /.carro-img -->
@@ -138,7 +138,7 @@
                         <div class="info-carro">
                             <h2>Volkswagem Karmann-ghia</h2>
                             <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                            <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                            <a class="btn1" href="veiculo">Mais Detalhes</a>
                         </div>
                         <!-- /.info-carro -->
                         <!-- /.carro-img -->
@@ -149,7 +149,7 @@
                         <div class="info-carro">
                             <h2>Volkswagem Karmann-ghia</h2>
                             <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                            <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                            <a class="btn1" href="veiculo">Mais Detalhes</a>
                         </div>
                         <!-- /.info-carro -->
                         <!-- /.carro-img -->
@@ -160,7 +160,7 @@
                         <div class="info-carro">
                             <h2>Volkswagem Karmann-ghia</h2>
                             <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                            <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                            <a class="btn1" href="veiculo">Mais Detalhes</a>
                         </div>
                         <!-- /.info-carro -->
                         <!-- /.carro-img -->
@@ -171,7 +171,7 @@
                         <div class="info-carro">
                             <h2>Volkswagem Karmann-ghia</h2>
                             <p>1.6 8v, Gasolina, 2P, Manual, 1969</p>
-                            <a class="btn1" href="veiculo.html">Mais Detalhes</a>
+                            <a class="btn1" href="veiculo">Mais Detalhes</a>
                         </div>
                         <!-- /.info-carro -->
                         <!-- /.carro-img -->
@@ -191,9 +191,9 @@
         <div class="container">
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="venda.html">Venda</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a class="active" href="venda">Venda</a></li>
+                    <li><a href="sobre">Sobre</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </nav>
